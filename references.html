@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>資料來源 | 高質感手作工坊</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css"> 
+    <style>
+        /* 針對資料來源頁面的特別微調 */
+        .ref-list {
+            list-style: none;
+            padding: 0;
+            margin-top: 30px;
+        }
+        .ref-item {
+            background: #ffffff;
+            border: 1px solid #eeeeee;
+            padding: 20px;
+            margin-bottom: 15px;
+            border-radius: 8px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: all 0.3s ease;
+        }
+        .ref-item:hover {
+            border-color: #543618;
+            transform: translateX(5px);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+        }
+        .ref-info h5 {
+            font-size: 1.6rem;
+            color: #1a1a1a;
+            margin-bottom: 5px;
+        }
+        .ref-info p {
+            font-size: 1.2rem;
+            color: #888;
+        }
+        .ref-link-btn {
+            font-size: 1.4rem;
+            color: #543618;
+            font-weight: 500;
+            text-decoration: underline;
+            padding: 10px;
+        }
+        .ref-link-btn:hover {
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>資料來源</h1>
+            <p>本網站所引用之教學影片、圖片及參考文獻之相關連結。</p>
+        </header>
+
+        <section class="intro-text">
+            您可以點擊下方連結跳轉至原網頁查看不同的資訊。
+        </section>
+
+        <ul class="ref-list">
+            
+            <li class="ref-item">
+                <div class="ref-info">
+                    <h5>滴膠基礎教學影片</h5>
+                    <p>YouTube - 創作者名稱或是影片標題</p>
+                </div>
+                <a href="https://www.youtube.com/watch?v=HpHELoDwuUQ" target="_blank" class="ref-link-btn">前往網頁 →</a>
+            </li>
+
+            <li class="ref-item">
+                <div class="ref-info">
+                    <h5>串珠配色靈感參考</h5>
+                    <p>Pinterest / 部落格文章名稱</p>
+                </div>
+                <a href="https://www.instagram.com/reel/DFVHdA6tR4z/" target="_blank" class="ref-link-btn">前往網頁 →</a>
+            </li>
+
+            <li class="ref-item">
+                <div class="ref-info">
+                    <h5>手作工具購買建議</h5>
+                    <p>相關資訊來源網站</p>
+                </div>
+                <a href="https://youtu.be/pyHtiF6XXK0?si=ey4X0fdn8kbxbjIM" target="_blank" class="ref-link-btn">前往網頁 →</a>
+            </li>
+			
+			<li class="ref-item">
+    <div class="ref-info">
+        <h5>學習心得與創作歷程</h5>
+        <p>記錄我在學習滴膠與串珠過程中的感悟與技巧心得。</p>
+    </div>
+    <a href="#my-reflection" class="ref-link-btn">查看內容 ↓</a>
+</li>
+
+<div id="my-reflection" class="content-col" style="margin-top: 80px; padding-top: 40px; border-top: 2px solid #543618;">
+    <h4 style="font-size: 2.2rem; color: #1a1a1a; margin-bottom: 20px;">我的手作心得</h4>
+    <div class="intro-text" style="font-size: 1.4rem; line-height: 2; color: #333;">
+        因為喜歡手作，又在機緣巧合下接觸到了雕花，便陸陸續續買了不少工具，也製作過不同類型的滴膠手作，每一次都有不同的收穫，也學習到很多不同的技巧。製作過程也很開心，
+		有趣的是自己在購買材料的時候不小心買了太多，房間裡現在還專門留了兩個儲藏籃放手作的用具和材料，平時雖然不會作手作，但每次想到打開來看看就會覺得心情都好了起來，就像是收藏品一樣，當擺件也令我感到賞心悅目。
+		在製作這個網頁的時候，是希望可以再找一些不同的手作物品來看看，也剛好藉此機會學習最近感興趣的串珠，所以這個網頁是蒐集了一些串珠還有滴膠的物件來教學，並可提供給想試玩滴膠還有串珠的朋友一個參考方向。
+		在設計這個網頁有一些小小的巧思，使用了圖片在主頁滴膠還有串珠做展示，每一個選項都可做點擊，點擊進去裡面每一個都有製作步驟的介紹，最下方有一些小提示，可提示製作過程中可留意的地方。
+		也設計了回到主頁的按鈕，讓閱讀起來更為便利。這次製作網頁有使用gemini，在點擊鍵的美編排版主要是靠gemini完成，而圖片、影片、連結的的嵌入使用的是課程學到的內容，我也分成了七個檔案，我真心覺得能夠在一個html檔裡放入另一個html檔的設計
+		實在是太好用了，我七個檔案這樣加起來超級多的程式碼，我也陸陸續續改了許多次內容，分開來的檔案在更改上便利了不只一點點，我都能想像要是都在同一個檔案那一定是一個地域關卡，可能寫到一半就放棄了.....最後完成檔案也有非常大的成就感！沒想到
+		曾經對程式碼避之不及的我居然也可以寫出一個漂亮的網頁！！非常的興奮也開心，雖然寫不出來的時候其實很暴躁，但看到成果還是覺得付出的努力有回報，希望自己繼續加油，將網頁學習的更加熟練！！
+    </div>
+    
+    <div style="text-align: right;">
+        <a href="#" style="font-size: 1.2rem; color: #888; text-decoration: none;">↑ 回到清單頂端</a>
+    </div>
+</div>
+
+            </ul>
+
+        <div style="margin-top: 50px; text-align: center;">
+            <a href="index.html" class="menu-btn">← 回到主頁</a>
+        </div>
+    </div>
+</body>
+</html>
